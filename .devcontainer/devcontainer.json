@@ -1,0 +1,35 @@
+{
+  "name": "app",
+  "workspaceFolder": "app",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "unity",
+  "extensions": [
+    "fudge.auto-using",
+    "ms-dotnettools.csharp",
+    "adrianwilczynski.namespace",
+    "revrenlove.c-sharp-utilities",
+    "k--kato.docomment",
+    "adam-bender.commit-message-editor",
+    "unity.unity-debug",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "github.copilot",
+    "eamodio.gitlens",
+    "visualstudioexptteam.vscodeintellicode",
+    "pkief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "prateekmahendrakar.prettyxml",
+    "tabnine.tabnine-vscode",
+    "hbenl.vscode-test-explorer",
+    "gruntfuggly.todo-tree",
+    "swf.unity-code-snippets",
+    "pixl.unity-toolbox"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite": {
+      "password": "vscode",
+      "webPort": "6080",
+      "vncPort": "5901"
+    }
+  }
+}
