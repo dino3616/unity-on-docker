@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  unity:
+    build: .
+    container_name: unity
+    environment:
+      - UNITY_USERNAME
+      - UNITY_PASSWORD
+    volumes:
+      - ./app:/app
+    tty: true
